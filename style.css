@@ -24,15 +24,41 @@ body {
     align-items: center;
 }
 
-h1 {
-    color: var(--primary)
+.title {
+    font-size: 52px;
+    color: var(--neutral-dark-slate-grey);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.description {
+    font-size: 16px;
+    color: var(--charcoal-grey);
+    max-width: 400px;
 }
 
 .background_content {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     background-color: var(--white);
     border-radius: 32px;
     padding: 24px;
     display: flex;
+    justify-content: space-between;
 }
+
+.content_left {
+    flex: 1;
+}
+
