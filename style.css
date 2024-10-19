@@ -50,15 +50,44 @@ li {
 
 .background_content {
     width: 50%;
-    height: 50%;
+    height: 60%;
     background-color: var(--white);
     border-radius: 32px;
     padding: 24px;
     display: flex;
     justify-content: space-between;
+    gap: 32px;
 }
 
 .content_left {
     flex: 1;
 }
 
+.form {
+    margin-top: 64px;
+}
+
+.email_label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.email_input {
+    padding: 16px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #dfdfdf;
+}
+
+button {
+    margin-top: 16px;
+    width: 100%;
+    padding: 16px;
+    background: var(--charcoal-grey);
+    outline: none;
+    border: none;
+    color: var(--white);
+    border-radius: 8px;
+}
